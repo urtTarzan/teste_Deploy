@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Você está na página inicial</h1>
+
+    <!-- Botão que vai para /destino -->
+    <form action="{{ url_for('destino') }}" method="get">
+        <button type="submit">Ir para a outra página</button>
+    </form>
+</body>
+</html>
